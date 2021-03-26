@@ -1,0 +1,72 @@
+body {
+  margin: 0px;
+  background-color: #d1fffb;
+}
+.bannière {
+  height: 200px;
+}
+
+h1 {
+  color: #1100ff;
+  margin: 0px;
+  padding-top: 55px;
+  font-family: Raleway ;
+}
+h2 {
+ color: #6b61ff;
+ text-align: center;
+ font-family: Raleway ;
+}
+h3{ 
+ color:#ff0000 ;
+ text-align: center;
+ font-family: Raleway ;
+}
+img {
+height: 200px;
+}
+
+.banner {
+  background-image: linear-gradient(), url("banner.jpg");
+  height:50vh ;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.btn-red {
+  text-decoration: gradient;
+  background-color: #1c73ff;
+  padding: 16px;
+  display: block;
+  width: 30%;
+  margin: 16px auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.card {
+  background-color:#1c73ff;
+  width: 225px;
+  text-align: center;
+  padding: 16px;
+  border-radius: 7px;
+  box-shadow: 1px 1px 1px #00000066;
+}
+
+.container {
+ width: 980px;
+ margin: 24px auto;
+}
+
+.footer {
+  background-color: ;
+  color: ;
+  text-align: ;
+  padding: 24px 0px;
+  font-family: Raleway ;
+}
